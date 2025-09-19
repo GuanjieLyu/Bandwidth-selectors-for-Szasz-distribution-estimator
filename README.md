@@ -1,8 +1,8 @@
-# Data-driven selection of the smoothing parameter in Sz\'asz-Mirakyan distribution estimation
+# Data-driven selection of the smoothing parameter in Szasz-Mirakyan distribution estimation
 
 This repository contains the code for the paper:
 
-**“Data-driven selection of the smoothing parameter in Sz\'asz-Mirakyan distribution estimation”**
+**“Data-driven selection of the smoothing parameter in Szasz-Mirakyan distribution estimation”**
 
 ---
 
