@@ -195,7 +195,7 @@ select_m_estimation <- function(
 
 
 ## --- Data ---
-X <- faithful$eruptions
+X <- faithful$waiting
 stopifnot(all(is.finite(X)), all(X >= 0))
 n <- length(X)
 x_grid <- quantile(X, probs = c(0.1, 0.3, 0.5, 0.7, 0.9), type = 1)
@@ -301,8 +301,8 @@ df_long <- df %>%
 
 # Legend labels + shapes/colors (emphasize the two selectors)
 series_lab <- c(
-  mopt_indirect = "Indirect  (m̂(x))",
-  mopt_direct   = "Direct    (m̌(x))",
+  mopt_indirect =  expression("Indirect " * m[opt]),
+  mopt_direct   =  expression("Direct " * m[opt]),
   m10  = "m = 10", m50 = "m = 50", m90 = "m = 90", m130 = "m = 130", m170 = "m = 170"
 )
 shape_map <- c(mopt_indirect=16, mopt_direct=17, m10=1, m50=2, m90=0, m130=5, m170=6)
@@ -317,7 +317,7 @@ ggplot(df_long, aes(x = q, y = Fhat, color = series, shape = series)) +
        y = "Estimated CDF",
        color = "Series",
        shape = "Series",
-       title = "Szász–Mirakyan CDF Estimates for Old Faithful Eruption Duration") +
+       title = "Szász–Mirakyan CDF Estimates for Old Faithful Waiting Time") +
   theme_minimal(base_size = 12) +
   theme(
     legend.position = "right",
