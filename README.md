@@ -25,16 +25,8 @@ Both approaches are analyzed theoretically and evaluated empirically through sim
 ## Repository Contents
 
 - **R Code**:  
-  Functions implementing the Szász–Mirakyan distribution estimator, indirect (bootstrap) selector, and direct (estimation–based) selector.  
-
-- **Simulation Scripts**:  
-  R scripts to replicate the simulation study, including bias/variance evaluation, MSE curves, and comparisons between selectors.  
-
-- **Data Example**:  
-  Code illustrating the application to the `faithful` eruption dataset.  
-
-- **Figures**:  
-  Scripts for generating the figures reported in the manuscript (CDF curves, selector comparisons, simulation results).  
+  Implementation of the Szász–Mirakyan distribution estimator and both smoothing parameter selection methods for the Old Faithful dataset.  
+  Includes scripts for generating the figures shown in the application section of the paper.
 
 ---
 
