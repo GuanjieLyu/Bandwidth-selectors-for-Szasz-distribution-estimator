@@ -1,8 +1,8 @@
-# Smoothing Parameter Selection in Szász–Mirakyan Operator–Based Distribution Estimation
+# Data-driven selection of the smoothing parameter in Sz\'asz-Mirakyan distribution estimation
 
 This repository contains the code for the paper:
 
-**“Smoothing Parameter Selection in Szász–Mirakyan Operator–Based Distribution Estimation”**
+**“Data-driven selection of the smoothing parameter in Sz\'asz-Mirakyan distribution estimation”**
 
 ---
 
